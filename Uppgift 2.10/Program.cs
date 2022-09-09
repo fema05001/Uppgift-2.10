@@ -7,8 +7,8 @@ namespace Uppgift_2_10
         static void Main(string[] Args)
         {
             Console.WriteLine("Vilken favorit bok har du?");
-            String svar = Console.ReadLine();
-            Console.WriteLine("det är en väldigt bra bok");
+            String x = Console.ReadLine();
+            Console.WriteLine( x + " det är en väldigt bra bok");
         }
         
        
